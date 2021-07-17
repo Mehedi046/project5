@@ -1,0 +1,404 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a,a:hover{
+	text-decoration: none;
+}
+ul,li{
+	text-decoration: none;
+
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*font-family: 'Alfa Slab One', cursive;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Montserrat', sans-serif;*/
+
+/*banner section*/
+
+.banner{
+	background: url('bg.png');
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+
+}
+.nav-ber{
+	display: flex;
+	justify-content: space-between;
+
+}
+.nev-menu ul li{
+	display: inline-block;
+	
+}
+.header{
+	padding: 30px 0px;
+}
+.menu{
+	text-align: right;
+}
+.nev-menu{
+	padding-top: 20px;
+}
+.nev-menu ul li a{
+	 font-family: 'Bebas Neue', cursive;
+	 font-size: 22px;
+	 color: #3D2514;
+	 margin-left: 20px;
+
+}
+.h-contact span{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	vertical-align: middle;
+	color: #3D2514;
+	margin-left: 15px;
+
+}
+.h-contact img{
+	vertical-align: middle;
+
+}
+.containt{
+	display: flex;
+	justify-content: space-between;
+}
+.b-right img{
+	width: 500px;
+	height: auto;
+
+}
+.b-left p{
+	color: #3D2514;
+	border: 2px dashed;#3D2514 ;
+	font-size: 22px;
+	 font-family: 'Bebas Neue', cursive;
+	 padding: 6px;
+	 display: inline-block;
+}
+.b-left h1{
+	font-size: 114px;
+	color: #3D2514;
+	font-family: 'Alfa Slab One', cursive;
+	text-shadow: 4px 3px white;
+}
+.b-left h2{
+	font-size: 76px;
+	color: #3D2514;
+	font-family: 'Alfa Slab One', cursive;
+	text-shadow: 4px 3px white;
+}
+.b-left{
+	margin-top: 90px;
+	flex-basis: 50%;
+}
+.b-right{
+	flex-basis: 50%;
+	position: relative;
+}
+/*<!-- service start from here************* -->*/
+.service{
+	width: 100%;
+	padding: 55px 0px;
+}
+.service-item{
+	display: flex;
+}
+.service-item img{
+	max-width: 100%;
+	height: auto;*/
+}
+/*.s-left,.s-right{
+	flex-basis: 50%;
+}*/
+.s-item{
+	margin: 15px;
+}
+.s-text{
+	position: absolute;
+	color: white;
+	top: 32px;
+	left: 36px;
+
+}
+.s-item{
+	position: relative;
+	margin: 15px;
+}
+.s-text h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 16px;
+	font-weight: 400;
+	
+
+}
+.s-text h2{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 28px;
+	font-weight: 400;	
+}
+.button{
+	background: yellow;
+}
+/*<!-- service end from here************* -->*/
+/***************burgar gellary start***********/
+
+.burgar-gellary{
+	width: 100%;
+	padding: 60px 0px;
+
+}
+.gallary-title{
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.gallary-title span{  
+	font-family: 'Bebas Neue', cursive;
+	background: #e6a222e6;
+	padding: 6px 16px;
+	
+}
+.gallary-title h2{
+	font-size: 50px;
+	margin: 16px 0px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3D2514;
+
+}
+.gallary-title p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color:#3D2514;
+
+
+}
+.gallery-item{
+	display: flex;
+	justify-content: space-between;
+}
+.gallery-item img{
+	max-width: 100%;
+	height: auto;
+	padding-top: 26px;
+
+}
+.item1 h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 38px;
+	color:#3D2514;
+	text-transform: uppercase;
+
+}
+
+.item1 button{
+	font-family: 'Montserrat', sans-serif;
+	color:#3D2514;
+	background-color: red;
+	padding: 6px 10px;
+	font-size: 15px;
+	position: relative;
+	z-index:9999 ;
+
+
+
+}
+.slider-containt{
+	padding:30px;
+	box-shadow: 10px 10px 20px;
+
+
+
+}
+.s-containt{
+	display: flex;
+}
+.slider-left,.slider-right{
+	flex-basis: 50%;
+
+}
+.slider-right img{
+	max-width: 100%;
+	height: auto;
+
+}
+.slider-left p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color:#3D2514;
+	margin: 16px 0px;
+	line-height: 28px;
+}
+.slider-left h2{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3D2514;
+	font-size: 42px;
+
+
+}
+.owl-theme .owl-nav {
+ 
+    display: none;
+ 
+}
+.owl-dots{
+	position: absolute;
+	left: 14px;
+	bottom: 20px;
+
+
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #17db96;.
+}
+/* last booking */
+.cover{
+	background-image: url('book.png');
+	
+	height: 400px;
+	background-repeat: none;
+	background-size: cover;
+	text-align: center;
+}
+
+.cover-1{
+	background-image: url('img/bg1.png');
+	
+	height: 400px;
+	background-repeat: none;
+	background-size: cover;
+	text-align: center;
+}
+.cover-text{
+	display: flex;
+	justify-content: space-between;
+
+}
+.cover-text-left p{
+	color: white;
+	padding-top: 40px;
+	text-align: left;
+}
+.cover-text-right {
+	padding-top: 140px;
+	text-align: left;
+
+}
+.cover-text-left img{
+	padding-top: 20px;
+}
+.icon{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 100px;
+}
+.left{
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************burgar gelary end***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
